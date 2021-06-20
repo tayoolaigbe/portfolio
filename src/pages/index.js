@@ -1,4 +1,4 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
+import Accomplishments from '../components/Accomplishments/Accomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
@@ -8,18 +8,18 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
-  return (
-    <Layout>
-      {/* <Section grid> */}
-        <Hero />
-        {/* <BgAnimation /> */}
-      {/* </Section> */}
-      <Projects />
-      <Technologies />
-      <Timeline />
-      <Acomplishments />
-    </Layout>
-  );
+	return (
+		<Layout>
+			<Section grid>
+				<Hero />
+				<BgAnimation />
+			</Section>
+			<Projects />
+			<Technologies />
+			<Timeline />
+			<Accomplishments />
+		</Layout>
+	);
 };
 
 export default Home;
